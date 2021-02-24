@@ -335,7 +335,7 @@
                 <div *ngIf="creditCardNameOnCard.invalid && (creditCardNameOnCard.dirty || creditCardNameOnCard.touched) " class="alert alert-danger mt-1">
                   <div *ngIf="creditCardNameOnCard.errors.required || creditCardNameOnCard.errors.notOnlyWhiteSpace">
                   name on card is required
-                  </div> 
+                  </div>
 
                    <div *ngIf="creditCardNameOnCard.errors.minlength">
                    a minimum of 2 letters is required
@@ -378,7 +378,7 @@
 
                 <div *ngIf="creditCardSecurityCode.invalid && (creditCardSecurityCode.dirty || creditCardSecurityCode.touched) " class="alert alert-danger mt-1">
                   <div *ngIf="creditCardSecurityCode.errors.required || creditCardSecurityCode.errors.notOnlyWhiteSpace">
-                   cvc is required
+                   Security Code  is required
                   </div>
 
                   <div *ngIf="creditCardSecurityCode.errors.pattern">
@@ -429,7 +429,7 @@
 
           <p>Total Quantity: {{ totalQuantity }}</p>
           <p>Shipping: FREE</p>
-          <p>Total Price: {{ totalPrice | currency: "USD" }}</p>
+          <p>Total Price: {{ totalPrice | currency: 'USD' }}</p>
         </div>
 
         <!-- submit button -->
