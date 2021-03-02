@@ -7,7 +7,8 @@ I will correct my naive mistakes after getting feedback
 
  # Release 2.0
 * Integrate MPesa API
-* Refactor the App into a microservice
+* Integrate Paypal API
+* Refactor the App into a microservice, implementing various features eg a gateway, service discovery, load balancing etc
 * Add caching
 * Add Docker files
 * Add security features
