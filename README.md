@@ -4,8 +4,8 @@ an ecommerce app built with angular on the frontend and SpringBoot on the Backen
 # Release 1.0
 Implements basic CRUD operations of the app
 
- #Release 2.0
-Integrate MPesa API
+ # Release 2.0
+## Integrate MPesa API
 Refactor the App into a microservice
 Add caching
 Add Docker files
